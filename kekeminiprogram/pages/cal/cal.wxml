@@ -1,0 +1,36 @@
+<!--pages/cal.wxml-->
+<view class="content">
+  <view class="top">
+    <view class="screen">{{displayData}}</view>
+  </view>
+  <view class="bottom">
+    <view class="btnGroup">
+      <view class="item border" bindtap="clickBtn" id="{{operator4}}">/</view>
+      <view class="item border" bindtap="clickBtn" id="{{operator5}}">%</view>
+      <view class="item border" bindtap="clickBtn" id="{{operator3}}">*</view>
+      <view class="item border" bindtap="clickBtn" id="{{operator8}}">del</view>
+    </view>
+    <view class="btnGroup">
+      <view class="item border" bindtap="clickBtn" id="{{id7}}">7</view>
+      <view class="item border" bindtap="clickBtn" id="{{id8}}">8</view>
+      <view class="item border" bindtap="clickBtn" id="{{id9}}">9</view>
+      <view class="item border" bindtap="clickBtn" id="{{operator2}}">-</view>
+    </view>
+    <view class="btnGroup">
+      <view class="item border" bindtap="clickBtn" id="{{id4}}">4</view>
+      <view class="item border" bindtap="clickBtn" id="{{id5}}">5</view>
+      <view class="item border" bindtap="clickBtn" id="{{id6}}">6</view>
+      <view class="item border" bindtap="clickBtn" id="{{operator1}}">+</view>
+    </view>
+    <view class="btnGroup">
+      <view class="item border" bindtap="clickBtn" id="{{id1}}">1</view>
+      <view class="item border" bindtap="clickBtn" id="{{id2}}">2</view>
+      <view class="item border" bindtap="clickBtn" id="{{id3}}">3</view>
+      <view class="item border" bindtap="clickBtn" id="{{operator6}}">.</view>
+    </view>
+    <view class="btnGroup">
+      <view class="item border" bindtap="clickBtn" id="{{id0}}">0</view>
+      <view class="item res border" bindtap="clickBtn" id="{{operator7}}">=</view>
+    </view>
+  </view>
+</view>
